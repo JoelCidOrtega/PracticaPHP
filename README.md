@@ -1,0 +1,2 @@
+# PracticaPHP
+Primera practica PHP
