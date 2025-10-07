@@ -1,0 +1,130 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #111;
+    color: #eee;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: #000;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+header a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+header a:hover {
+    background: #222;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #eee;
+    text-align: center;
+    padding: 22px 0;
+    font-size: 15px;
+    margin-top: 48px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.18);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contenido principal */
+.main-content {
+    max-width: 640px;
+    margin: 48px auto;
+    background: #181818;
+    border-radius: 16px;
+    box-shadow: 0 6px 32px rgba(0,0,0,0.30);
+    padding: 40px 32px;
+    color: #eee;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* Centra horizontalmente el contenido */
+    text-align: center;    /* Centra el texto */
+}
+
+.main-content h1 {
+    font-size: 2.2rem;
+    color: #fff;
+    margin-bottom: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.16);
+}
+
+.main-content p {
+    font-size: 1.15rem;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+.main-content label {
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-content .highlight {
+    background: #222;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.main-content ul,
+.main-content ol {
+    margin: 0 auto 16px auto;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+}
+
+.main-content li {
+    font-size: 1.08rem;
+    margin-bottom: 8px;
+    color: #eee;
+}
+
+/* Responsive para móviles */
+@media (max-width: 700px) {
+    .main-content {
+        padding: 18px 8px;
+        max-width: 98vw;
+    }
+    .main-content h1 {
+        font-size: 1.3rem;
+    }
+    header {
+        gap: 16px;
+        padding: 14px 0;
+    }
+}
