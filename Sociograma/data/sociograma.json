@@ -1,0 +1,36 @@
+[
+    {
+        "nombre": "asddas",
+        "gusto": "1",
+        "fecha": "2025-10-28",
+        "horaEntrada": "09:20",
+        "horaSalida": "17:20",
+        "preferencia": "solo",
+        "compa": [
+            "jan"
+        ],
+        "neg": [
+            "sandro"
+        ],
+        "motivo": "dasas sad as ddsa dasdas asdas asdd sa",
+        "ayuda": "sandro",
+        "color": "#ff0000",
+        "comentarios": "das ads das das das das das as",
+        "lenguajes": [
+            "python"
+        ],
+        "stack": "backend",
+        "roles": [
+            "programador"
+        ],
+        "disponibilidad": [
+            "tarde"
+        ],
+        "observaciones": "asd as dsa asd das das das das das",
+        "nivel": "intermedio",
+        "ide": "vscode",
+        "git": "si",
+        "comunicacion": "ads asd as dsa asd das das das das",
+        "fecha_guardado_servidor": "2025-10-28 22:21:17"
+    }
+]
